@@ -16,7 +16,7 @@ Gitpod Self-Hosted is truly self-hosted: it does not require an internet connect
 
 Operating Gitpod in production on gitpod.io, has enabled us to battle-harden this product at scale. Both offerings share the same codebase, hence offer the same qualities regarding scalability, cloud-density, reliability, and security. All improvements that we make on Gitpod’s SaaS offering directly benefit it’s self-hosted brethren.
 
-This release ships a plenthora of bugfixes and improvements, particularly in the area of GitLab integration. 
+This release ships a plethora of bugfixes and improvements, particularly in the area of GitLab integration. 
 There is one major feature that I want to show in more detail since you can't try this on gitpod.io:
 
 ## New Admin UI
