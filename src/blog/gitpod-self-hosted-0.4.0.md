@@ -8,6 +8,8 @@ teaserImage: /cloud-download.png
 ---
 We are excited to announce the new release of Gitpod Self-Hosted in version 0.4.0. Gitpod Self-Hosted allows everyone to set-up and run  a service with the same features as gitpod.io in your cloud or corporate network. 
 
+### How Does it Work?
+
 Gitpod Self-Hosted runs on Kubernetes and is easily installed via "helm install". On gitpod.io you can find detailed documentation and some automation to install Gitpod on vanilla Kubernetes or on Google Cloud Platform. For the next release, we plan to add support for AWS, Azure, and OpenShift.
 
 Users log into Gitpod via OAuth from your self managed Gitlab or GitHub enterprise. This ensures that all access privileges from your Git hosting solution are taken into account and that there is no additional administrative effort for managing user accounts.
@@ -19,19 +21,17 @@ Operating Gitpod in production on gitpod.io, has enabled us to battle-harden thi
 This release ships a plethora of bugfixes and improvements, particularly in the area of GitLab integration. 
 There is one major feature that I want to show in more detail since you can't try this on gitpod.io:
 
-## New Admin UI
+### New Admin UI
 
 This release ships with a new web UI for administrative tasks. The UI is particularly handy when providing support fo users. 
-It allows for easy listing and searching of users (see screenshot) and worksapces.
-![Homebrew in Gitpod screenshot](./self-hosted-0.4.0/sh-userlist2.png)
-
+It allows for easy listing and searching of users and worksapces.
 When selection a user, the UI will show user's details and workspaces, as you can in the following screenshot:
 
 ![Homebrew in Gitpod screenshot](./self-hosted-0.4.0/sh-userdetails2.png)
 
 To try the new admin interface in Gitpod Sefl-Hosted, you'll need to assign the "admin" privilege to your user and then open /admin in your browser.
 
-## Getting Started
+### Getting Started
 
 The fastest way to get started is by installing Gitpod Self-Hosted on Google Cloud Platform. There is also more in-depth documentation available on how to install Gitpod on vanilla Kubernetes.
 
